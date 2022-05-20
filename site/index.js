@@ -20,7 +20,7 @@ const camera = new THREE.PerspectiveCamera(75, sizes.width/sizes.height, 0.1, 10
 camera.position.set(0, 1, 2)
 scene.add(camera)
 
-const rendereer =  new THREE.WEBGL1Rendereer({
+const rendereer =  new THREE.WebGL1Rendereer({
   canvas: canvas
 })
 
