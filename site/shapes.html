@@ -71,7 +71,7 @@
 				// ASCII file
 
 				const loader = new STLLoader();
-				loader.load( './models/cube.stl', function ( geometry ) {
+				loader.load( '/models/cube.stl', function ( geometry ) {
 
 					const material = new THREE.MeshPhongMaterial( { color: 0xff5533, specular: 0x111111, shininess: 200 } );
 					const mesh = new THREE.Mesh( geometry, material );
