@@ -1,4 +1,4 @@
-import \* as THREE from './vendor/three/build/three.module.js';
+import \* as THREE from 'https://cdn.skypack.dev/three'
 
 
 const canvas = document.querySelector('.webgl')
